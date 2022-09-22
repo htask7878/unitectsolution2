@@ -170,11 +170,7 @@ class _homeState extends State<home> {
                       var response = await http.get(url);
                       print('Response body: ${response.body}');
 
-                      // Map  m=jsonDecode(response.body);
-                      // print(m['cat_type']);
-                      // print(m['cat_name']);
-                      // print(m['cat_description']);
-                      // print(m['cat_qty']);
+                      
 ////////////////////////////////////////////////////////////////
                       // Navigator.push(context, MaterialPageRoute(builder: (context) {
                       //   return second(cat_type,cat_name,cat_description,cat_qty);
